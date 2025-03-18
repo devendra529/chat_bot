@@ -3,28 +3,31 @@ This project is a simple Chatbot built using Python, Flask, and Machine Learning
 
 # Features
 Intent Recognition: The chatbot recognizes various intents like greetings, asking for weather, telling jokes, etc.
+
 Natural Language Processing (NLP): It uses nltk for text preprocessing and intent classification.
+
 Machine Learning Model: The chatbot uses Logistic Regression for predicting the user's intent based on input text.
+
 Flask Web App: The chatbot is deployed on a simple web application built with Flask.
+
 Multiple Intents: It can handle various queries such as greetings, jokes, time, favorite colors, and more.
 
 # Technologies Used
-Python: The primary language for implementing the chatbot logic.
-Flask: A micro web framework to create the chatbot web app.
-nltk: Used for text preprocessing, tokenization, and lemmatization.
-HTML/CSS: For creating the frontend user interface.
-JSON: For storing training data (user inputs and responses).
+Python: The primary language for implementing the chatbot logic.<br>
+Flask: A micro web framework to create the chatbot web app.<br>
+nltk: Used for text preprocessing, tokenization, and lemmatization.<br>
+HTML/CSS: For creating the frontend user interface.<br>
+JSON: For storing training data (user inputs and responses).<br>
 
 # Installation
 Follow these steps to get the chatbot up and running locally:
 # 1. Clone the Repository
-git clone https://github.com/devendra529/chat_bot.git
+git clone https://github.com/devendra529/chat_bot.git<br>
 cd chat_bot
 
 # 2. Install Dependencies
-Install all necessary libraries using pip:
-
-pip install -r requirements.txt
+Install all necessary libraries using pip:<br>
+pip install -r requirements.txt<br>
 The requirements.txt file includes all the required libraries like:
 
 Flask
